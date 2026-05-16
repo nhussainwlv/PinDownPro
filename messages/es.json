@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Pin Down Pro — Descargador Premium de Pinterest",
+    "description": "Descarga videos, imágenes, GIFs y carruseles de Pinterest en HD al instante."
+  },
+  "nav": {
+    "home": "Inicio",
+    "pricing": "Precios",
+    "dashboard": "Panel",
+    "signIn": "Iniciar sesión",
+    "signOut": "Cerrar sesión",
+    "admin": "Admin"
+  },
+  "hero": {
+    "badge": "Descargador Premium de Pinterest",
+    "title": "Descarga contenido de Pinterest en",
+    "titleHighlight": "un clic elegante",
+    "subtitle": "Videos HD, imágenes, GIFs y carruseles — con vista previa instantánea y procesamiento ultrarrápido.",
+    "placeholder": "Pega la URL de Pinterest (pin.it o pinterest.com/pin/...)",
+    "download": "Descargar",
+    "dropHint": "o arrastra y suelta un enlace aquí",
+    "features": {
+      "hd": "Hasta 4K HD",
+      "fast": "Súper rápido",
+      "secure": "Privacidad primero"
+    }
+  },
+  "preview": {
+    "processing": "Procesando tu pin…",
+    "ready": "Listo para descargar",
+    "carousel": "Carrusel",
+    "video": "Video",
+    "image": "Imagen",
+    "gif": "GIF",
+    "save": "Guardar archivo",
+    "copy": "Copiar enlace",
+    "ai": "Generar caption con IA"
+  },
+  "pricing": {
+    "title": "Elige tu plan",
+    "subtitle": "Mejora para descargas HD ilimitadas, captions con IA y velocidad prioritaria.",
+    "free": "Gratis",
+    "pro": "Pro",
+    "enterprise": "Empresa",
+    "perMonth": "/mes",
+    "current": "Plan actual",
+    "upgrade": "Mejorar"
+  },
+  "dashboard": {
+    "title": "Tu panel",
+    "history": "Historial de descargas",
+    "favorites": "Favoritos",
+    "empty": "Aún no hay descargas. Pega un enlace de Pinterest en la página principal.",
+    "plan": "Tu plan"
+  },
+  "footer": {
+    "builtBy": "Creado por",
+    "rights": "Todos los derechos reservados."
+  },
+  "errors": {
+    "invalidUrl": "Introduce una URL válida de Pinterest",
+    "rateLimit": "Demasiadas solicitudes. Espera un momento.",
+    "noMedia": "No se encontró contenido descargable en este pin.",
+    "generic": "Algo salió mal. Inténtalo de nuevo."
+  }
+}

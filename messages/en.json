@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Pin Down Pro — Premium Pinterest Downloader",
+    "description": "Download HD Pinterest videos, images, GIFs and carousels instantly. Fast, elegant, secure."
+  },
+  "nav": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "dashboard": "Dashboard",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "admin": "Admin"
+  },
+  "hero": {
+    "badge": "Premium Pinterest Downloader",
+    "title": "Download Pinterest media in",
+    "titleHighlight": "one elegant click",
+    "subtitle": "HD videos, images, GIFs & carousel pins — with instant preview, smart URL detection, and blazing-fast processing.",
+    "placeholder": "Paste Pinterest URL (pin.it or pinterest.com/pin/...)",
+    "download": "Download",
+    "dropHint": "or drag & drop a link here",
+    "features": {
+      "hd": "Up to 4K HD",
+      "fast": "Lightning fast",
+      "secure": "Privacy first"
+    }
+  },
+  "preview": {
+    "processing": "Processing your pin…",
+    "ready": "Ready to download",
+    "carousel": "Carousel",
+    "video": "Video",
+    "image": "Image",
+    "gif": "GIF",
+    "save": "Save file",
+    "copy": "Copy link",
+    "ai": "Generate AI caption"
+  },
+  "pricing": {
+    "title": "Choose your plan",
+    "subtitle": "Upgrade for unlimited HD downloads, AI captions, and priority speed.",
+    "free": "Free",
+    "pro": "Pro",
+    "enterprise": "Enterprise",
+    "perMonth": "/month",
+    "current": "Current plan",
+    "upgrade": "Upgrade"
+  },
+  "dashboard": {
+    "title": "Your dashboard",
+    "history": "Download history",
+    "favorites": "Favorites",
+    "empty": "No downloads yet. Paste a Pinterest link on the home page to get started.",
+    "plan": "Your plan"
+  },
+  "footer": {
+    "builtBy": "Built by",
+    "rights": "All rights reserved."
+  },
+  "errors": {
+    "invalidUrl": "Please enter a valid Pinterest URL",
+    "rateLimit": "Too many requests. Please wait a moment.",
+    "noMedia": "No downloadable media found for this pin.",
+    "generic": "Something went wrong. Please try again."
+  }
+}

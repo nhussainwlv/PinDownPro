@@ -1,0 +1,142 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum Plan {
+  FREE
+  PRO
+  ENTERPRISE
+}
+
+enum MediaType {
+  VIDEO
+  IMAGE
+  GIF
+  CAROUSEL
+  AUDIO
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  passwordHash  String?
+  role          Role      @default(USER)
+  plan          Plan      @default(FREE)
+  stripeId      String?   @unique
+  locale        String    @default("en")
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  accounts      Account[]
+  sessions      Session[]
+  downloads     Download[]
+  favorites     Favorite[]
+  subscriptions Subscription[]
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Download {
+  id          String    @id @default(cuid())
+  userId      String?
+  pinUrl      String
+  title       String?
+  description String?
+  mediaType   MediaType
+  thumbnail   String?
+  mediaUrls   Json
+  tags        Json      @default("[]")
+  aiCaption   String?
+  createdAt   DateTime  @default(now())
+
+  user      User?      @relation(fields: [userId], references: [id], onDelete: SetNull)
+  favorites Favorite[]
+
+  @@index([userId, createdAt])
+  @@index([createdAt])
+}
+
+model Favorite {
+  id         String   @id @default(cuid())
+  userId     String
+  downloadId String
+  createdAt  DateTime @default(now())
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  download Download @relation(fields: [downloadId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, downloadId])
+}
+
+model Subscription {
+  id               String   @id @default(cuid())
+  userId           String
+  stripeSubId      String   @unique
+  stripePriceId    String
+  status           String
+  currentPeriodEnd DateTime
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model AnalyticsEvent {
+  id        String   @id @default(cuid())
+  event     String
+  metadata  Json?
+  userId    String?
+  ipHash    String?
+  createdAt DateTime @default(now())
+
+  @@index([event, createdAt])
+  @@index([createdAt])
+}

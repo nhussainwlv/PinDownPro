@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Pin Down Pro — Premium Pinterest Downloader",
+    "description": "Laden Sie Pinterest-Videos, Bilder, GIFs und Karussells sofort in HD herunter."
+  },
+  "nav": {
+    "home": "Start",
+    "pricing": "Preise",
+    "dashboard": "Dashboard",
+    "signIn": "Anmelden",
+    "signOut": "Abmelden",
+    "admin": "Admin"
+  },
+  "hero": {
+    "badge": "Premium Pinterest Downloader",
+    "title": "Pinterest-Medien mit",
+    "titleHighlight": "einem eleganten Klick",
+    "subtitle": "HD-Videos, Bilder, GIFs und Karussells — mit Sofortvorschau und blitzschneller Verarbeitung.",
+    "placeholder": "Pinterest-URL einfügen (pin.it oder pinterest.com/pin/...)",
+    "download": "Herunterladen",
+    "dropHint": "oder Link hierher ziehen",
+    "features": {
+      "hd": "Bis zu 4K HD",
+      "fast": "Blitzschnell",
+      "secure": "Datenschutz zuerst"
+    }
+  },
+  "preview": {
+    "processing": "Pin wird verarbeitet…",
+    "ready": "Bereit zum Download",
+    "carousel": "Karussell",
+    "video": "Video",
+    "image": "Bild",
+    "gif": "GIF",
+    "save": "Datei speichern",
+    "copy": "Link kopieren",
+    "ai": "KI-Beschriftung erstellen"
+  },
+  "pricing": {
+    "title": "Wählen Sie Ihren Plan",
+    "subtitle": "Upgrade für unbegrenzte HD-Downloads und KI-Beschriftungen.",
+    "free": "Kostenlos",
+    "pro": "Pro",
+    "enterprise": "Enterprise",
+    "perMonth": "/Monat",
+    "current": "Aktueller Plan",
+    "upgrade": "Upgrade"
+  },
+  "dashboard": {
+    "title": "Ihr Dashboard",
+    "history": "Download-Verlauf",
+    "favorites": "Favoriten",
+    "empty": "Noch keine Downloads. Fügen Sie auf der Startseite einen Pinterest-Link ein.",
+    "plan": "Ihr Plan"
+  },
+  "footer": {
+    "builtBy": "Erstellt von",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "errors": {
+    "invalidUrl": "Bitte geben Sie eine gültige Pinterest-URL ein",
+    "rateLimit": "Zu viele Anfragen. Bitte warten.",
+    "noMedia": "Für diesen Pin wurden keine herunterladbaren Medien gefunden.",
+    "generic": "Etwas ist schiefgelaufen. Bitte erneut versuchen."
+  }
+}

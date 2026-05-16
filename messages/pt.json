@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Pin Down Pro — Downloader Premium do Pinterest",
+    "description": "Baixe vídeos, imagens, GIFs e carrosséis do Pinterest em HD instantaneamente."
+  },
+  "nav": {
+    "home": "Início",
+    "pricing": "Preços",
+    "dashboard": "Painel",
+    "signIn": "Entrar",
+    "signOut": "Sair",
+    "admin": "Admin"
+  },
+  "hero": {
+    "badge": "Downloader Premium do Pinterest",
+    "title": "Baixe mídia do Pinterest com",
+    "titleHighlight": "um clique elegante",
+    "subtitle": "Vídeos HD, imagens, GIFs e carrosséis — com prévia instantânea e processamento ultrarrápido.",
+    "placeholder": "Cole a URL do Pinterest (pin.it ou pinterest.com/pin/...)",
+    "download": "Baixar",
+    "dropHint": "ou arraste e solte um link aqui",
+    "features": {
+      "hd": "Até 4K HD",
+      "fast": "Super rápido",
+      "secure": "Privacidade em primeiro lugar"
+    }
+  },
+  "preview": {
+    "processing": "Processando seu pin…",
+    "ready": "Pronto para baixar",
+    "carousel": "Carrossel",
+    "video": "Vídeo",
+    "image": "Imagem",
+    "gif": "GIF",
+    "save": "Salvar arquivo",
+    "copy": "Copiar link",
+    "ai": "Gerar legenda com IA"
+  },
+  "pricing": {
+    "title": "Escolha seu plano",
+    "subtitle": "Faça upgrade para downloads HD ilimitados e legendas com IA.",
+    "free": "Grátis",
+    "pro": "Pro",
+    "enterprise": "Empresa",
+    "perMonth": "/mês",
+    "current": "Plano atual",
+    "upgrade": "Fazer upgrade"
+  },
+  "dashboard": {
+    "title": "Seu painel",
+    "history": "Histórico de downloads",
+    "favorites": "Favoritos",
+    "empty": "Nenhum download ainda. Cole um link do Pinterest na página inicial.",
+    "plan": "Seu plano"
+  },
+  "footer": {
+    "builtBy": "Criado por",
+    "rights": "Todos os direitos reservados."
+  },
+  "errors": {
+    "invalidUrl": "Insira uma URL válida do Pinterest",
+    "rateLimit": "Muitas solicitações. Aguarde um momento.",
+    "noMedia": "Nenhuma mídia para download foi encontrada neste pin.",
+    "generic": "Algo deu errado. Tente novamente."
+  }
+}

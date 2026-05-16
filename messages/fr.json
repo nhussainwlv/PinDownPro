@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Pin Down Pro — Téléchargeur Pinterest Premium",
+    "description": "Téléchargez vidéos, images, GIFs et carrousels Pinterest en HD instantanément."
+  },
+  "nav": {
+    "home": "Accueil",
+    "pricing": "Tarifs",
+    "dashboard": "Tableau de bord",
+    "signIn": "Connexion",
+    "signOut": "Déconnexion",
+    "admin": "Admin"
+  },
+  "hero": {
+    "badge": "Téléchargeur Pinterest Premium",
+    "title": "Téléchargez du contenu Pinterest en",
+    "titleHighlight": "un clic élégant",
+    "subtitle": "Vidéos HD, images, GIFs et carrousels — aperçu instantané et traitement ultra-rapide.",
+    "placeholder": "Collez l'URL Pinterest (pin.it ou pinterest.com/pin/...)",
+    "download": "Télécharger",
+    "dropHint": "ou glissez-déposez un lien ici",
+    "features": {
+      "hd": "Jusqu'en 4K HD",
+      "fast": "Ultra rapide",
+      "secure": "Vie privée d'abord"
+    }
+  },
+  "preview": {
+    "processing": "Traitement de votre épingle…",
+    "ready": "Prêt à télécharger",
+    "carousel": "Carrousel",
+    "video": "Vidéo",
+    "image": "Image",
+    "gif": "GIF",
+    "save": "Enregistrer",
+    "copy": "Copier le lien",
+    "ai": "Générer une légende IA"
+  },
+  "pricing": {
+    "title": "Choisissez votre forfait",
+    "subtitle": "Passez à la version supérieure pour des téléchargements HD illimités et des légendes IA.",
+    "free": "Gratuit",
+    "pro": "Pro",
+    "enterprise": "Entreprise",
+    "perMonth": "/mois",
+    "current": "Forfait actuel",
+    "upgrade": "Mettre à niveau"
+  },
+  "dashboard": {
+    "title": "Votre tableau de bord",
+    "history": "Historique",
+    "favorites": "Favoris",
+    "empty": "Aucun téléchargement. Collez un lien Pinterest sur la page d'accueil.",
+    "plan": "Votre forfait"
+  },
+  "footer": {
+    "builtBy": "Créé par",
+    "rights": "Tous droits réservés."
+  },
+  "errors": {
+    "invalidUrl": "Veuillez entrer une URL Pinterest valide",
+    "rateLimit": "Trop de requêtes. Patientez un instant.",
+    "noMedia": "Aucun média téléchargeable trouvé pour cette épingle.",
+    "generic": "Une erreur s'est produite. Réessayez."
+  }
+}
