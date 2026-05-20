@@ -3,8 +3,8 @@ services:
     name: pindownpro
     runtime: node
     plan: free
-    buildCommand: npm install && npx prisma generate && npx prisma db push && npm run build
-    startCommand: npm start
+    buildCommand: npm install && npx prisma generate && npm run build
+    startCommand: npx prisma db push --skip-generate && npm start
     envVars:
       - key: NODE_VERSION
         value: "20"
