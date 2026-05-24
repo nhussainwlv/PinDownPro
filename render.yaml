@@ -3,8 +3,10 @@ services:
     name: pindownpro
     runtime: node
     plan: free
+    region: frankfurt
     buildCommand: npm install && npx prisma generate && npm run build
-    startCommand: npx prisma db push --skip-generate && npm start
+    preDeployCommand: npx prisma db push --skip-generate
+    startCommand: npm start
     envVars:
       - key: NODE_VERSION
         value: "20"
@@ -22,3 +24,4 @@ services:
 databases:
   - name: pindownpro-db
     plan: free
+    region: frankfurt
