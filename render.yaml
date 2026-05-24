@@ -5,8 +5,7 @@ services:
     plan: free
     region: frankfurt
     buildCommand: npm install && npx prisma generate && npm run build
-    preDeployCommand: npx prisma db push --skip-generate
-    startCommand: npm start
+    startCommand: npx prisma db push --skip-generate && npm start
     envVars:
       - key: NODE_VERSION
         value: "20"
